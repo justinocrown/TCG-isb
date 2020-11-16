@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 40%;
+    height: 40%;
+  }
+  body {
+  background-color:burlywood;
+}  
+     table{
+         border-spacing:20px;  
+     }
+     .div-nama{
+         background-color: #EBEBEB;
+     }
+     .div-me{
+         background-color: coral;
+     }
+     .div-3{
+         background-color: gray;
+     }
+     .div-4{
+         background-color: #333333;
+     }
+     ul{ list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333333;
+     }
+     li{
+         float: left;
+     }
+     li a{
+         display:block;
+         color:white;
+         text-align-last: center;
+         padding: 16px;
+         text-decoration-line: none;
+    
+     }
+     li a :hover{
+         background-color: #111111;
+     }
+    </style>      
+
+
+
+	
+	
+ 
+<title>Profile</title>
+</head>
+<body>
+   
+   
+    
+         
+       
+      <div class="container">
+        <h1>Profile TCG </h1>
+
+        <form action="/action_page.php">
+          <label for="name">Name:</label>
+          <input type="text" id="Name"  readonly><br><br>
+          <label for="Game">Game:</label>
+          <input type="text" id="Game"  readonly><br><br>
+          <label for="Score">Score:</label>
+          <input type="text" id="Score"  readonly><br><br>
+          <label for="Status">Country:</label>
+          <input type="text" id="Status" readonly><br><br>
+          <a href="edit_profile.html" class="btn btn-info" role="button">Edit</a>
+        </form>
+       
+              
+            
+        
+            
+            <img src="assests/img/web.jpg" class="rounded" alt="web" width="304" height="236"> 
+            <h1>Member Profile </h1>
+            <img src="assests/img/BED.jpg" class="rounded" alt="web" width="304" height="236"> 
+            <form>
+ 
+              <div class="form-group">
+                <label for="contohupload1">Pilih file yang ingin diupload</label>
+                <input type="file" class="form-control-file" id="contohupload1">
+              </div>
+              
+              <br/>
+             
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="contohupload2">
+                <label class="custom-file-label" for="contohupload2">Choose file</label>
+              </div>
+             
+            </form>
+          </div>
+
+         
+
+       
+        
+      
+      
+    
+       
+</body>
+</html>
